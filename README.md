@@ -31,9 +31,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/iOHRQq4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/nC6D8XS"><img src="https://i.imgur.com/nC6D8XS.png" title="source: imgur.com" /></a>
   
-<img src="https://i.imgur.com/Goxmxca.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/xatqD5Z"><img src="https://i.imgur.com/xatqD5Z.png" title="source: imgur.com" /></a>
 </p>
 <p>
 Create a resource group and Virtual Machine
@@ -41,16 +41,16 @@ Create a resource group and Virtual Machine
 <br />
 
 <p>
-<img src="https://i.imgur.com/44Jfhji.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/u3GO7tj"><img src="https://i.imgur.com/u3GO7tj.png" title="source: imgur.com" /></a>
   
-<img src="https://i.imgur.com/wlKglKG.png" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 <p>
 While creating a virtual machine select your region in which you want your virtual machine to be created, in the image selection box select the windows 10 virtual machine with 2-4 virtual CPUs. Make a user name and password and remember it because it will used to connect the remote desktop in the following steps. When creating a virtual machine, allow it to create a new virtual network (Vnet).
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/rEDFJIY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/F9bqCqb"><img src="https://i.imgur.com/F9bqCqb.png" title="source: imgur.com" /></a>
 </p>
 <p>
 Now that the virtual machine has been created, copy the public IP address of the virtual machine and open the remote desktop. Here you will paste the public IP address and then enter your username and password from the previous step.
@@ -58,7 +58,7 @@ Now that the virtual machine has been created, copy the public IP address of the
 <br />
 
 <p>
-<img src="https://i.imgur.com/V2l4iLq.png" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/yHZumJf"><img src="https://i.imgur.com/yHZumJf.png" title="source: imgur.com" /></a>
 </p>
 <p>
 Now that you are in, you have to Install and enable Internet Information Services. This is a web server that runs on the windows operating system. To do this click start and go to the control panel>programs>turn windows features on or off. Turn on IIS and expand it, then go to the world wide web Service and expand it> expand the application developer> CGI (because CGI is what lets us install the PHP manager) 
@@ -66,7 +66,7 @@ Now that you are in, you have to Install and enable Internet Information Service
 <br />
 
 <p>
-<img src="https://i.imgur.com/TXymQtS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/Oy7oAJQ"><img src="https://i.imgur.com/Oy7oAJQ.png?1" title="source: imgur.com" /></a>
 </p>
 <p>
 This is the Installation File.
@@ -74,7 +74,7 @@ This is the Installation File.
 <br />
 
 <p>
-<img src="https://i.imgur.com/lBB5ASb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/EjaT9Jf"><img src="https://i.imgur.com/EjaT9Jf.png?1" title="source: imgur.com" /></a>
 </p>
 <p>
 From the installation file download the PHP manager for IIS. 
@@ -83,7 +83,7 @@ In osTicket PHP is the back end web pragraming language.
 <br />
 
 <p>
-<img src="https://i.imgur.com/GVQYnXU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/UQ90VD7"><img src="https://i.imgur.com/UQ90VD7.png" title="source: imgur.com" /></a>
 </p>
 <p>
 From the installation file download the rewrite module.
@@ -91,7 +91,7 @@ From the installation file download the rewrite module.
 <br />
 
 <p>
-<img src="https://i.imgur.com/bByWRug.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/83U8Maw"><img src="https://i.imgur.com/83U8Maw.png" title="source: imgur.com" /></a>
 </p>
 <p>
 Create the directory C:\PHP. Go to the windows explorer>windows C>new folder>rename PHP. 
@@ -99,7 +99,7 @@ Create the directory C:\PHP. Go to the windows explorer>windows C>new folder>ren
 <br />
 
 <p>
-<img src="https://i.imgur.com/EX2RTvA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/v52TKvC"><img src="https://i.imgur.com/v52TKvC.png" title="source: imgur.com" /></a>
 </p>
 <p>
 From the Installation file download PHP 7.3.8 and unzip the content into C:\PHP.
@@ -129,7 +129,7 @@ Select the standard configuration> user name is root and password is Password1> 
 <br />
 
 <p>
-<img src="https://i.imgur.com/ZF4QNX9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/NT9f5UY"><img src="https://i.imgur.com/NT9f5UY.png" title="source: imgur.com" /></a>
 </p>
 <p>
 Open IIS as an administrator
@@ -165,7 +165,7 @@ Now reload IIS. Select to the vmosTicket and click restart.
 Download the osTicket from the Installation file folder. Extract and copy “upload” folder to c:\inetpub\wwwroot Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
 
 
-Now open another file explorer next to the first. Go to the download and drag upload folder into c:\inetpub\wwwroot and let it install. Next rename the folder to osTicket.
+Now open another file explorer next to the first. Go to the download and drag upload folder into c:\inetpub\wwwroot and let it install. Next, rename the folder to osTicket.
 
   
 
@@ -178,12 +178,12 @@ Now open another file explorer next to the first. Go to the download and drag up
 <p>
 Reload the IIS again and then go to sites>Default>osTicket
   
-On the right click Browse 80
+On the right click Browse*:80(http) in the top right of IIS Manager
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/gJ6ChZw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/rp0fWBd"><img src="https://i.imgur.com/rp0fWBd.png" title="source: imgur.com" /></a>
 </p>
 <p>
 If you can see this page which means you are good so far.
@@ -193,7 +193,7 @@ If you see this page next, you did it correctly.
 <br />
 
 <p>
-<img src="https://i.imgur.com/8GkvB1V.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/WLkGDwh"><img src="https://i.imgur.com/WLkGDwh.png" title="source: imgur.com" /></a>
 </p>
 <p>
 
@@ -215,7 +215,7 @@ Refresh the osTicket site in your browser and observe the changes.
 <br />
 
 <p>
-<img src="https://i.imgur.com/4D0VxDz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/lsWwloQ"><img src="https://i.imgur.com/lsWwloQ.png" title="source: imgur.com" /></a>
 </p>
 <p>
 
@@ -229,7 +229,7 @@ To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 <br />
 
 <p>
-<img src="https://i.imgur.com/C6RSD86.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/T4OqSnm"><img src="https://i.imgur.com/T4OqSnm.png" title="source: imgur.com" /></a>
 </p>
 <p>
 
@@ -239,25 +239,25 @@ Assign permission to ost-config.php, go to properties>security and disable inher
 <br />
 
 <p>
-<img src="https://i.imgur.com/Zazf1ee.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+OS TICKET INSTALL BASIC INSTALLATION IMAGE NEEDED
 </p>
 <p>
 
-Click countinue in the osTicket browser to countinue settings.
+Click continue in the osTicket browser to continue settings.
   
-Name Helpdesk (Kanza’s Help Desk)
+Name Helpdesk (Kenronishe Help Desk)
   
   
-Default email (receives email from customers)kanza@helper.com
+Default email (receives an email from customers)kenronishe@helper.com
   
-Set user name and password and remember it to login in future lab. In this case user name is Kanza.
+Set the username and password for logging into OsTicket. 
 
   
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/7dmR4Sm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/1FRfs6k"><img src="https://i.imgur.com/1FRfs6k.png" title="source: imgur.com" /></a>
 </p>
 <p>
 Download and Install the HeidiSQL from the Installation folder.
@@ -265,27 +265,27 @@ Download and Install the HeidiSQL from the Installation folder.
 <br />
 
 <p>
-<img src="https://i.imgur.com/zW70gAl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/gys0POC"><img src="https://i.imgur.com/gys0POC.png" title="source: imgur.com" /></a>
 </p>
 <p>
 
-Create a new session, root with the Password1 and connect to it.
+Create a new session, root with Password1, and connect to it.
   
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/CUqRk6b.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/UHZJyR0"><img src="https://i.imgur.com/UHZJyR0.png" title="source: imgur.com" /></a>
 </p>
 <p>
-Create a new data base called osTicket.
+Create a new database called osTicket.
   
-Right click to the unnamed>create new>database> name it osTicket.
+Right-click to the unnamed>create new>database> name it osTicket.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/n16FZht.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<INSERT MISSING IMAGE FOR ADMID USER OSTICKET>
 </p>
 <p>
 Go to the osTicket page and type root in MYSQL username, Password1 in MYSQL Password, and osTicket in MYSQL Database and click to Install now.
