@@ -294,7 +294,7 @@ Go to the osTicket page and type root in MYSQL username, Password1 in MYSQL Pass
 <br />
 
 <p>
-<img src="https://i.imgur.com/QGiGVax.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/s8E3in1"><img src="https://i.imgur.com/s8E3in1.png" title="source: imgur.com" /></a>
 </p>
 <p>
 
@@ -304,7 +304,7 @@ Congratulations, your setup has been completed successfully!
 <br />
 
 <p>
-<img src="https://i.imgur.com/DLXS1uV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/LWV413n"><img src="https://i.imgur.com/LWV413n.png" title="source: imgur.com" /></a>
 </p>
 <p>
 Before we you finish there are some things that need cleaning up.
@@ -318,7 +318,7 @@ We need to delete the setup folder. Go to C:\inetpub\wwwroot\osTicket\setup.
 <br />
 
 <p>
-<img src="https://i.imgur.com/XSQXcZW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/G8NeHF0"><img src="https://i.imgur.com/G8NeHF0.png" title="source: imgur.com" /></a>
 </p>
 <p>
 
@@ -330,7 +330,7 @@ Go to C:\inetpub\wwwroot\osTicket\include\ost-config.php>properties>security>adv
 <br />
 
 <p>
-<img src="https://i.imgur.com/h4JSwCL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/KQRFpn1"><img src="https://i.imgur.com/KQRFpn1.png" title="source: imgur.com" /></a>
 </p>
 <p>
 Now you can login with your username and password. In my case it is kanza and Password1.
@@ -338,7 +338,7 @@ Now you can login with your username and password. In my case it is kanza and Pa
 <br />
 
 <p>
-<img src="https://i.imgur.com/GqfFjze.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<a href="https://imgur.com/YmcpCaD"><img src="https://i.imgur.com/YmcpCaD.png" title="source: imgur.com" /></a>
 </p>
 <p>
 Congratulation, you have completed this tutorial and are inside of your osTicket setup!
