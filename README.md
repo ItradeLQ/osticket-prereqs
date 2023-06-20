@@ -36,7 +36,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <a href="https://imgur.com/xatqD5Z"><img src="https://i.imgur.com/xatqD5Z.png" title="source: imgur.com" /></a>
 </p>
 <p>
-Create a resource group and Virtual Machine
+Next, create a Resource Group and Virtual Machine in Azure 
 </p>
 <br />
 
@@ -46,7 +46,7 @@ Create a resource group and Virtual Machine
 
 </p>
 <p>
-While creating a virtual machine select your region in which you want your virtual machine to be created, in the image selection box select the windows 10 virtual machine with 2-4 virtual CPUs. Make a user name and password and remember it because it will used to connect the remote desktop in the following steps. When creating a virtual machine, allow it to create a new virtual network (Vnet).
+Both Resoruce Group and Virtual Machine should be created in the same region. In the image selection box select the windows 10 virtual machine with 4 vCPUs | 16 GiB. Make a username and password which will be used to connect the remote desktop in the following steps. When creating a virtual machine, allow it to create a new virtual network (Vnet).
 </p>
 <br />
 <p>
@@ -61,7 +61,7 @@ Now that the virtual machine has been created, copy the public IP address of the
 <a href="https://imgur.com/yHZumJf"><img src="https://i.imgur.com/yHZumJf.png" title="source: imgur.com" /></a>
 </p>
 <p>
-Now that you are in, you have to Install and enable Internet Information Services. This is a web server that runs on the windows operating system. To do this click start and go to the control panel>programs>turn windows features on or off. Turn on IIS and expand it, then go to the world wide web Service and expand it> expand the application developer> CGI (because CGI is what lets us install the PHP manager) 
+Now that you are in, you have to Install and enable Internet Information Services(IIS). This is a web server that runs on the windows operating system. To do this click start and go to the control panel>programs>turn windows features on or off. Turn on IIS and expand it, then go to the world wide web Service and expand it> expand the application developer> CGI (because CGI is what lets us install the PHP manager) 
 </p>
 <br />
 
@@ -78,7 +78,7 @@ This is the Installation File.
 </p>
 <p>
 From the installation file download the PHP manager for IIS. 
-In osTicket PHP is the back end web pragraming language.
+In osTicket PHP is the back-end web programming language.
 </p>
 <br />
 
@@ -94,7 +94,7 @@ From the installation file download the rewrite module.
 <a href="https://imgur.com/83U8Maw"><img src="https://i.imgur.com/83U8Maw.png" title="source: imgur.com" /></a>
 </p>
 <p>
-Create the directory C:\PHP. Go to the windows explorer>windows C>new folder>rename PHP. 
+Create the directory C:\PHP. Go to windows explorer> Windows (C:)>create a new folder> name PHP. 
 </p>
 <br />
 
@@ -103,7 +103,7 @@ Create the directory C:\PHP. Go to the windows explorer>windows C>new folder>ren
 </p>
 <p>
 From the Installation file download PHP 7.3.8 and unzip the content into C:\PHP.
-Extract all>browse>this PC>windows C>PHP>select folder>Extract.
+Extract the downloaded file>Windows (C:)>PHP folder>Extract all.
 </p>
 <br />
 
@@ -122,7 +122,7 @@ From the installation file download VC redistX86.exe.
 <p>
 From the Installation file download MYSQL.5.5.62.
   
-Open it and agree. Select typical setup and install. Make sure that the box is marked before Installing.  
+Open it and agree. Select the typical setup and install. Make sure that the box is marked before Installing.  
   
 Select the standard configuration> user name is root and password is Password1> execute>finish.
 </p>
@@ -151,7 +151,7 @@ Register PHP from within IIS. To do this, go to PHP manager>register new PHP ver
 <img src="https://i.imgur.com/vxkHX7l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now reload IIS. Select to the vmosTicket and click restart.
+Now reload IIS. Select the vmosTicket and click restart.
 </p>
 <br />
 
@@ -165,7 +165,7 @@ Now reload IIS. Select to the vmosTicket and click restart.
 Download the osTicket from the Installation file folder. Extract and copy “upload” folder to c:\inetpub\wwwroot Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
 
 
-Now open another file explorer next to the first. Go to the download and drag upload folder into c:\inetpub\wwwroot and let it install. Next, rename the folder to osTicket.
+Now open another file explorer next to the first. Go to the download folder and copy the upload folder and paste it into c:\inetpub\wwwroot and let it install. Next, rename the folder to osTicket.
 
   
 
@@ -186,9 +186,8 @@ On the right click Browse*:80(http) in the top right of IIS Manager
 <a href="https://imgur.com/rp0fWBd"><img src="https://i.imgur.com/rp0fWBd.png" title="source: imgur.com" /></a>
 </p>
 <p>
-If you can see this page which means you are good so far.
+If you can see this page, it means the installational process is successful
 
-If you see this page next, you did it correctly.
 </p>
 <br />
 
@@ -219,7 +218,7 @@ Refresh the osTicket site in your browser and observe the changes.
 </p>
 <p>
 
-Rename ost-config.php From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+Rename ost-sampleconfig.php to ost-config.php, from: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 
   
 To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
@@ -233,13 +232,13 @@ To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 </p>
 <p>
 
-Assign permission to ost-config.php, go to properties>security and disable inheritance>remove all.
+Assign permission to ost-config.php, go to properties>security, and disable inheritance>remove all.
 
 </p>
 <br />
 
 <p>
-OS TICKET INSTALL BASIC INSTALLATION IMAGE NEEDED
+<OS TICKET INSTALL BASIC INSTALLATION IMAGE NEEDED>
 </p>
 <p>
 
@@ -285,7 +284,7 @@ Right-click to the unnamed>create new>database> name it osTicket.
 <br />
 
 <p>
-<INSERT MISSING IMAGE FOR ADMID USER OSTICKET>
+<INSERT MISSING IMAGE FOR ADMIN USER OSTICKET>
 </p>
 <p>
 Go to the osTicket page and type root in MYSQL username, Password1 in MYSQL Password, and osTicket in MYSQL Database and click to Install now.
@@ -333,7 +332,7 @@ Go to C:\inetpub\wwwroot\osTicket\include\ost-config.php>properties>security>adv
 <a href="https://imgur.com/KQRFpn1"><img src="https://i.imgur.com/KQRFpn1.png" title="source: imgur.com" /></a>
 </p>
 <p>
-Now you can login with your username and password. In my case it is kanza and Password1.
+Now you can log in with your username and password. The configuration used: Username: Kenronishe and PW: Password1.
 </p>
 <br />
 
