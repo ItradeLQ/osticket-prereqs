@@ -238,7 +238,7 @@ Assign permission to ost-config.php, go to properties>security, and disable inhe
 <br />
 
 <p>
-<OS TICKET INSTALL BASIC INSTALLATION IMAGE NEEDED>
+<a href="https://imgur.com/PiUhjRz"><img src="https://i.imgur.com/PiUhjRz.png" title="source: imgur.com" /></a>
 </p>
 <p>
 
@@ -284,7 +284,7 @@ Right-click to the unnamed>create new>database> name it osTicket.
 <br />
 
 <p>
-<INSERT MISSING IMAGE FOR ADMIN USER OSTICKET>
+<a href="https://imgur.com/lh9yjye"><img src="https://i.imgur.com/lh9yjye.png" title="source: imgur.com" /></a>
 </p>
 <p>
 Go to the osTicket page and type root in MYSQL username, Password1 in MYSQL Password, and osTicket in MYSQL Database and click to Install now.
