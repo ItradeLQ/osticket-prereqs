@@ -339,7 +339,6 @@ Now you can log in with your username and password. The configuration used: User
 <p>
 <a href="https://imgur.com/YmcpCaD"><img src="https://i.imgur.com/YmcpCaD.png" title="source: imgur.com" /></a>
 </p>
-<p>
+
 Congratulation, you have completed this tutorial and are inside of your osTicket setup!
-</p>
-<br />
+In the [next tutorial](https://github.com/ItradeLQ/post-install-config.git), the focus will be  the post-installation configuration of osTicket.
